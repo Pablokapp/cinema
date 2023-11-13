@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url(../image/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 100%;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.login-container h2 {
+    color: #fff;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.login-container input[type="submit"]{
+    width: 100%; /* Faz com que ambos os botões ocupem a largura total do container */
+    padding: 10px; /* Ajuste o padding conforme necessário */
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover{
+    background-color: #ddd;
+}

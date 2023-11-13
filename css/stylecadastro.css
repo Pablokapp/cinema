@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 100%;
+}
+
+.cadastro-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.cadastro-container h2 {
+    color: #fff;
+}
+
+.form-contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contato label {
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.form-contato input,
+.form-contato button {
+    font-family: 'Lato', sans-serif;
+    font-size: 1vmax;
+    width: 100%;
+    height: 3vmax;
+    color: #585858;
+    background: #fff;
+    padding: 1% 1%;
+    border: 1px solid #fff;
+    max-height: 60px;
+    margin-top: 5px;
+}
+
+.form-contato textarea {
+    width: 100%;
+    height: 8vmax;
+    max-height: 200px;
+    resize: none;
+    padding: 1% 2%;
+    margin-top: 5px;
+}
+
+.form-contato button {
+    background: #c4004f;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+    outline-color: #c4004f;
+}
+
+.register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.register-button:hover {
+    background-color: #ddd;
+}
+
+footer {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.85);
+    font-size: 0.8vmax;
+    text-align: center;
+    margin-top: 20px;
+}
